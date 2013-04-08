@@ -5,4 +5,7 @@
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
-
+.container {
+  @include container;
+  @include susy-grid-background;
+}
