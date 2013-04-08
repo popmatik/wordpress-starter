@@ -1,0 +1,22 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+@import "susy/";
+@import "reset";
+@import "sprites";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  : 12;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+$show-grid-backgrounds  : true;
+
+
+// Sprites set up
+$sprites: sprite-map("sprites/*.png");            // import 1x sprites
+$sprites2x: sprite-map("sprites-retina/*.png");   // import 2x sprites
