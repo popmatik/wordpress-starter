@@ -40,4 +40,3 @@
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
-		<div class='button-test'>&nbsp;</div>

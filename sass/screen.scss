@@ -6,12 +6,3 @@
 /* -------------------------------------------------------------------------*/
 /* Layout */
 
-.container {
-  @include container;
-  @include susy-grid-background;
-}
-
-.button-test{
-	@include retina-sprite(button1);
-	color:red;
-}
